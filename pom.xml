@@ -10,7 +10,7 @@
 
 
     <properties>
-        <aspectj.version>1.8.10</aspectj.version>   <!-- wersje dla bibiloteki aspect -->
+        <aspectj.version>1.8.10</aspectj.version>   <!--  wersje dla bibiloteki aspect -->
     </properties>
 
     <dependencies>
