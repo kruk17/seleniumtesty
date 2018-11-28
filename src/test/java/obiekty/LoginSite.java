@@ -1,6 +1,7 @@
 package obiekty;
 
 import io.qameta.allure.Step;
+import manager.Waity;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,7 +18,7 @@ public class LoginSite extends ObjectBase {
     private WebElement signon;
 
     @FindBy(id = "flash")
-    public WebElement expectedText;
+    private WebElement expectedText;
 
 
     public LoginSite sendKeysUser(String tekst){
@@ -27,6 +28,7 @@ public class LoginSite extends ObjectBase {
     }
     @Step("enter password {teksty}")
     public LoginSite sendKeysPassword(String teksty){
+        Waity.waitForElementVisible(password);
         password.clear();
         password.sendKeys(teksty);
         logger().info("password: {teksty}");
