@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e5cf70-2581-4456-a036-3d4729063dbc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/manager/DriverManagerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SelInne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelInne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/manager/Screeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/Screeny.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +39,7 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="gitignore" value="24" />
-          <entry key="java" value="12778" />
+          <entry key="java" value="13109" />
           <entry key="properties" value="89" />
           <entry key="txt" value="11" />
           <entry key="xml" value="337" />
@@ -45,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12778" />
+          <entry key="JAVA" value="13109" />
           <entry key="PLAIN_TEXT" value="37" />
           <entry key="Properties" value="89" />
           <entry key="XML" value="337" />
@@ -55,69 +57,33 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="121" />
+          <entry key="java" value="131" />
           <entry key="properties" value="12" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="14" />
           <entry key="xsl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="121" />
+          <entry key="JAVA" value="131" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="12" />
-          <entry key="XML" value="14" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stream.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SelInne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="298">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/manager/Sleep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Sil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -151,10 +117,8 @@
         <option value="$PROJECT_DIR$/src/test/java/manager/Waity.java" />
         <option value="$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java" />
         <option value="$PROJECT_DIR$/src/test/java/manager/TestNgListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/manager/Screeny.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/konfiguracja/PropDefiner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/manager/BrowserManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/konfiguracja/PropLoader.java" />
         <option value="$PROJECT_DIR$/src/test/java/manager/MyOptions.java" />
@@ -185,8 +149,11 @@
         <option value="$PROJECT_DIR$/src/main/java/RegeXp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Inne.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SelInne.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/manager/DriverManagerThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/manager/Screeny.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SelInne.java" />
       </list>
     </option>
   </component>
@@ -219,6 +186,60 @@
               <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +250,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/seleniumtesty/src/test/java/manager/MyOptions.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543676536382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543681861814" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -383,38 +404,45 @@
       <option name="project" value="LOCAL" />
       <updated>1543676044214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Inne">
+      <created>1543676558048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543676558048</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegeXp_pat - 2018.11.28 at 14h 39m 23s.xml">
-      <configuration name="RegeXp.pat" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat - 2018.11.28 at 14h 41m 05s.xml">
-      <configuration name="RegeXp.pat" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 47m 48s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 48m 29s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 50m 22s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 51m 20s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 52m 05s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat2 - 2018.11.28 at 14h 52m 35s.xml">
-      <configuration name="RegeXp.pat2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegeXp_pat3 - 2018.11.28 at 15h 05m 21s.xml">
-      <configuration name="RegeXp.pat3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SelInne_test - 2018.12.01 at 15h 40m 58s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 16h 36m 05s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 16h 36m 56s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 16h 37m 00s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 16h 40m 49s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 16h 41m 31s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 17h 00m 02s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 17h 00m 46s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 17h 29m 56s.xml">
+      <configuration name="SelInne.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelInne_test - 2018.12.01 at 17h 30m 47s.xml">
       <configuration name="SelInne.test" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -431,7 +459,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,12 +468,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72087747" weight="0.25326797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72087747" visible="true" weight="0.25326797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27912253" side_tool="true" weight="0.25326797" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
@@ -473,24 +501,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/resources.xsl" />
     <entry file="file://$PROJECT_DIR$/src/test/resources.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/manager/BrowserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/manager/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -511,13 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropDefiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -561,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/manager/Screeny.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -634,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/TestNGSuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RegeXp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -659,13 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/manager/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -697,44 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DropdownListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/manager/Sleep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SelInne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -745,10 +693,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/manager/Sleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropDefiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/manager/BrowserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/manager/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/manager/DriverManagerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/TestNGSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/manager/Screeny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DropdownListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SelInne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
