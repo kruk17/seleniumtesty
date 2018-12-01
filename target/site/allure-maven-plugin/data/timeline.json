@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "T510",
+    "children" : [ {
+      "name" : "5480@T510.main(1)",
+      "children" : [ {
+        "name" : "myTest",
+        "uid" : "f180f4d54a2319e2",
+        "parentUid" : "934c79eab8292796602cec1e872be42d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543262861081,
+          "stop" : 1543262861225,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkboxesTest",
+        "uid" : "653e84af08aee7f2",
+        "parentUid" : "934c79eab8292796602cec1e872be42d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543262845838,
+          "stop" : 1543262849065,
+          "duration" : 3227
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "934c79eab8292796602cec1e872be42d"
+    } ],
+    "uid" : "a2983ad4f0081027888c8f5183af89ae"
+  } ]
+}

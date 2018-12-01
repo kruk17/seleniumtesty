@@ -1,0 +1,1 @@
+{"uuid":"7eeb058e-6d06-46ec-8b71-c2bddea65cbb","name":"testy.TestBase.beforeTest","description":"","start":1543349247489,"stop":1543349261087,"children":["59f7b989-3025-4d27-bea0-7009f19a7b73"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","start":1543349247489,"stop":1543349261085}]}

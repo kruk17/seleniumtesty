@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f180f4d54a2319e2",
+  "name" : "myTest",
+  "time" : {
+    "start" : 1543262861081,
+    "stop" : 1543262861225,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "653e84af08aee7f2",
+  "name" : "checkboxesTest",
+  "time" : {
+    "start" : 1543262845838,
+    "stop" : 1543262849065,
+    "duration" : 3227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

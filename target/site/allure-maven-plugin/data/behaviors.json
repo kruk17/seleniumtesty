@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "checkboxesTest",
+    "uid" : "653e84af08aee7f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1543262845838,
+      "stop" : 1543262849065,
+      "duration" : 3227
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "myTest",
+    "uid" : "f180f4d54a2319e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1543262861081,
+      "stop" : 1543262861225,
+      "duration" : 144
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
