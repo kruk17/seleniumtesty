@@ -9,6 +9,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BrowserManager {
 
 
+
     public static WebDriver getBrowser(BrowserType browserType){
         switch (browserType){
             case CHROME:

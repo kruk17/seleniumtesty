@@ -21,6 +21,10 @@ public class PropDefiner {
         return PropConfiguration.getProperties().getProperty("ie.driver.location");
     }
 
+    public static String getUrl(){
+        return PropConfiguration.getProperties().getProperty("prop.url");
+    }
+
 
 
 
