@@ -1,6 +1,7 @@
 package testy;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.TmsLink;
 import obiekty.LoginSite;
 import obiekty.MainPage;
 import org.testng.annotations.DataProvider;
@@ -20,7 +21,7 @@ public class LoginTest extends TestBase {
 
         };
     }
-
+    @TmsLink("Id-5")
     @Test(dataProvider = "dataPro")
     @Description("login test with data provider")
     public void testProvider(String user, String passy){

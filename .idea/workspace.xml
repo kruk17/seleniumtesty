@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e5cf70-2581-4456-a036-3d4729063dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/manager/HttpRespond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/konfiguracja/XlsExcelLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/obiekty/HoverSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testy/HoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTestWithExcelXls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/konfiguracja/PropDefiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/konfiguracja/PropDefiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/manager/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/BrowserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testy/NumberOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/NumberOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +26,7 @@
     <session id="-912846679">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -31,37 +35,37 @@
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
           <entry key="gitignore" value="24" />
-          <entry key="java" value="14024" />
+          <entry key="java" value="15296" />
           <entry key="properties" value="89" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="337" />
+          <entry key="xml" value="338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14024" />
+          <entry key="JAVA" value="15296" />
           <entry key="PLAIN_TEXT" value="42" />
           <entry key="Properties" value="89" />
-          <entry key="XML" value="337" />
+          <entry key="XML" value="338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="147" />
+          <entry key="java" value="163" />
           <entry key="properties" value="14" />
           <entry key="xml" value="14" />
           <entry key="xsl" value="1" />
@@ -70,7 +74,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="163" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="14" />
           <entry key="XML" value="15" />
@@ -81,19 +85,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testy/NumberOneTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTestWithExcelXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="264">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/HoverSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/manager/HttpRespond.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testy/HoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="324">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/manager/BrowserType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/manager/Options.java" />
         <option value="$PROJECT_DIR$/src/main/java/Garbage.java" />
         <option value="$PROJECT_DIR$/src/test/java/manager/Waity.java" />
         <option value="$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java" />
@@ -146,14 +171,9 @@
         <option value="$PROJECT_DIR$/src/test/java/obiekty/ObjectBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/obiekty/DragAndDropSite.java" />
         <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/CheckboxesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/DropdownListTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" />
         <option value="$PROJECT_DIR$/src/test/resources/TestNGSuite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/RegeXp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Inne.java" />
@@ -172,6 +192,16 @@
         <option value="$PROJECT_DIR$/src/test/java/testy/NumberOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/NumberOneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/manager/HttpRespond.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/konfiguracja/XlsExcelLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/LoginTestWithExcelXls.java" />
+        <option value="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/obiekty/HoverSite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/HoverTest.java" />
       </list>
     </option>
   </component>
@@ -197,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +249,13 @@
               <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtesty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +271,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="konfiguracja" type="462c0819:PsiDirectoryNode" />
+              <item name="testy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumtesty" type="b2602c69:ProjectViewProjectNode" />
@@ -249,11 +285,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/seleniumtesty/src/test/java/manager/MyOptions.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543781505861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543860285659" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -272,17 +309,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Inne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inne" />
+  <component name="RunManager" selected="TestNG.HoverTest.hoverTest">
+    <configuration name="HoverTest.hoverTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumtesty" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream" />
-      <module name="seleniumtesty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testy" />
+      <option name="MAIN_CLASS_NAME" value="testy.HoverTest" />
+      <option name="METHOD_NAME" value="hoverTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,6 +339,42 @@
       <option name="PACKAGE_NAME" value="testy" />
       <option name="MAIN_CLASS_NAME" value="testy.HttpRespondTest" />
       <option name="METHOD_NAME" value="httpResponseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestWithExcelXls.testProvider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumtesty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testy" />
+      <option name="MAIN_CLASS_NAME" value="testy.LoginTestWithExcelXls" />
+      <option name="METHOD_NAME" value="testProvider" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestWithExcelXls.xlsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumtesty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testy" />
+      <option name="MAIN_CLASS_NAME" value="testy.LoginTestWithExcelXls" />
+      <option name="METHOD_NAME" value="xlsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -323,32 +400,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelInne.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumtesty" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelInne" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Inne" />
-      <item itemvalue="Application.Stream" />
-      <item itemvalue="TestNG.SelInne.test" />
       <item itemvalue="TestNG.HttpRespondTest.httpResponseTest" />
       <item itemvalue="TestNG.NumberOneTest.myTest" />
+      <item itemvalue="TestNG.LoginTestWithExcelXls.testProvider" />
+      <item itemvalue="TestNG.LoginTestWithExcelXls.xlsTest" />
+      <item itemvalue="TestNG.HoverTest.hoverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoverTest.hoverTest" />
+        <item itemvalue="TestNG.LoginTestWithExcelXls.xlsTest" />
+        <item itemvalue="TestNG.LoginTestWithExcelXls.testProvider" />
         <item itemvalue="TestNG.NumberOneTest.myTest" />
         <item itemvalue="TestNG.HttpRespondTest.httpResponseTest" />
-        <item itemvalue="TestNG.SelInne.test" />
-        <item itemvalue="Application.Stream" />
-        <item itemvalue="Application.Inne" />
       </list>
     </recent_temporary>
   </component>
@@ -440,39 +505,46 @@
       <option name="project" value="LOCAL" />
       <updated>1543683249638</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Inne">
+      <created>1543781551995</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543781551996</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelInne_test - 2018.12.01 at 16h 40m 49s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_testProvider - 2018.12.03 at 17h 41m 55s.xml">
+      <configuration name="LoginTestWithExcelXls.testProvider" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelInne_test - 2018.12.01 at 16h 41m 31s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_testProvider - 2018.12.03 at 17h 42m 41s.xml">
+      <configuration name="LoginTestWithExcelXls.testProvider" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelInne_test - 2018.12.01 at 17h 00m 02s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 45m 37s.xml">
+      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelInne_test - 2018.12.01 at 17h 00m 46s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 48m 15s.xml">
+      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelInne_test - 2018.12.01 at 17h 29m 56s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 50m 00s.xml">
+      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelInne_test - 2018.12.01 at 17h 30m 47s.xml">
-      <configuration name="SelInne.test" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 51m 07s.xml">
+      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HttpResponseTest_httpResponseTest - 2018.12.02 at 20h 18m 22s.xml">
-      <configuration name="HttpResponseTest.httpResponseTest" configurationId="TestNG" />
+    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 18h 09m 33s.xml">
+      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NumberOne_myTest - 2018.12.02 at 20h 56m 38s.xml">
-      <configuration name="NumberOne.myTest" configurationId="TestNG" />
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 18h 57m 34s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NumberOne_myTest - 2018.12.02 at 20h 59m 25s.xml">
-      <configuration name="NumberOne.myTest" configurationId="TestNG" />
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 18h 59m 40s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NumberOneTest_myTest - 2018.12.02 at 21h 03m 51s.xml">
-      <configuration name="NumberOneTest.myTest" configurationId="TestNG" />
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 00m 33s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -488,7 +560,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +569,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72087747" visible="true" weight="0.25326797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72087747" visible="true" weight="0.25326797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,9 +599,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Inne" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources.xml" />
     <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Ab.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/A.java" />
@@ -545,20 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -591,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/CheckboxesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -609,27 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -658,13 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -741,20 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DropdownListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/manager/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -769,34 +775,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/HttpResponseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/HttpResponseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/manager/JsExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,13 +790,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testy/NumberOneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -831,10 +807,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/NumberOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/manager/HttpRespond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="680">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DragAndDropTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/DropdownListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/PropLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/konfiguracja/XlsExcelLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/LoginTestWithExcelXls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/obiekty/HoverSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/HoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

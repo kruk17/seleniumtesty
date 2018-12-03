@@ -31,7 +31,7 @@ public class LoginSite extends ObjectBase {
         Waity.waitForElementVisible(password);
         password.clear();
         password.sendKeys(teksty);
-        logger().info("password: {teksty}");
+        logger().info("password:{}"+teksty);
         return this;
     }
     public LoginSite clickSignOn(){

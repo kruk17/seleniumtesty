@@ -1,5 +1,9 @@
 package testy;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.TmsLink;
 import konfiguracja.PropConfiguration;
 import konfiguracja.PropDefiner;
 import org.testng.annotations.Test;
@@ -13,8 +17,10 @@ import static org.testng.Assert.assertTrue;
 
 public class HttpRespondTest extends TestBase {
 
-
+    @TmsLink("ID-8")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
+    @Description("httpRespond test with get method and 200 resond code")
     public void httpResponseTest () throws MalformedURLException {
 
         HttpURLConnection httpURLConnection;

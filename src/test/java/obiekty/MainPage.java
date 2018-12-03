@@ -28,9 +28,12 @@ public class MainPage extends ObjectBase {
     @FindBy(partialLinkText = "Form Authentication")
     private WebElement loginSite;
 
+    @FindBy(partialLinkText = "Hovers")
+    private WebElement hovers;
+
     /*public MainPage(){
         PageFactory.initElements(getDriver(),this);
-    } */
+    } --deprecated */
 
 
 
@@ -56,5 +59,11 @@ public class MainPage extends ObjectBase {
         logger().info("Enterted Login site");
         loginSite.click();
         return new LoginSite();
+    }
+
+    public HoverSite enterHoverSite(){
+        logger().info("Entered Hover Site");
+        hovers.click();
+        return new HoverSite();
     }
 }

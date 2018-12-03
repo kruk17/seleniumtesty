@@ -1,6 +1,7 @@
 package testy;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.TmsLink;
 import obiekty.LoginSite;
 import obiekty.MainPage;
 import org.testng.annotations.DataProvider;
@@ -28,7 +29,7 @@ public class LoginTestDataFactory extends TestBase {
         return new Object[]{l1, l2, l3};
     }
 
-
+    @TmsLink("Id-6")
     @Test
     @Description("login test with data factory")
     public void testProvider() {
