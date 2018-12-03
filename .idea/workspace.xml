@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e5cf70-2581-4456-a036-3d4729063dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/konfiguracja/XlsExcelLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/obiekty/HoverSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testy/HoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTestWithExcelXls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myexcel.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/obiekty/LoginSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/obiekty/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/HttpRespondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/LoginTestDataFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,16 +38,16 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="gitignore" value="24" />
-          <entry key="java" value="15296" />
+          <entry key="java" value="15336" />
           <entry key="properties" value="89" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="27" />
           <entry key="xml" value="338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15296" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="JAVA" value="15336" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="Properties" value="89" />
           <entry key="XML" value="338" />
         </counts>
@@ -119,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testy/HoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,7 +281,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/seleniumtesty/src/test/java/manager/MyOptions.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543860285659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543860383044" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -512,22 +503,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543781551996</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hover + excelXls">
+      <created>1543860345412</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543860345412</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTestWithExcelXls_testProvider - 2018.12.03 at 17h 41m 55s.xml">
-      <configuration name="LoginTestWithExcelXls.testProvider" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestWithExcelXls_testProvider - 2018.12.03 at 17h 42m 41s.xml">
-      <configuration name="LoginTestWithExcelXls.testProvider" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 45m 37s.xml">
-      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 48m 15s.xml">
-      <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTestWithExcelXls_xlsTest - 2018.12.03 at 17h 50m 00s.xml">
       <configuration name="LoginTestWithExcelXls.xlsTest" configurationId="TestNG" />
     </history-entry>
@@ -546,6 +532,18 @@
     <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 00m 33s.xml">
       <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 02m 39s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 02m 50s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 03m 26s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverTest_hoverTest - 2018.12.03 at 19h 04m 55s.xml">
+      <configuration name="HoverTest.hoverTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,9 +556,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,8 +566,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72087747" visible="true" weight="0.25326797" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72087747" visible="true" weight="0.25326797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
@@ -596,7 +593,8 @@
     <MESSAGE value="wa" />
     <MESSAGE value="main" />
     <MESSAGE value="Inne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inne" />
+    <MESSAGE value="hover + excelXls" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover + excelXls" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" />
@@ -944,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/HoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
