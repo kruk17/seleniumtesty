@@ -18,10 +18,19 @@ public class Stream {
                 .filter(x -> x % 2 == 0 && x > 12)
                 .collect(Collectors.toList());
 
+
+
         System.out.println(list);
         list.forEach(System.out::println);
 
+        //list.sort(Integer::compareTo);
+
         forik(list);
+
+        System.out.println(list.get(1));
+
+        String s = "15";
+        int incik = Integer.valueOf(s);
 
 
     }

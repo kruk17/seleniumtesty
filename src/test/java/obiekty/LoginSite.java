@@ -14,7 +14,7 @@ public class LoginSite extends ObjectBase {
     @FindBy(id = "password")
     private WebElement password;
 
-    @FindBy(xpath = "//*[@id='login']/button")
+    @FindBy(xpath = "//form[@id='login']/button")
     private WebElement signon;
 
     @FindBy(id = "flash")

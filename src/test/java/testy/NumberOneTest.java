@@ -5,7 +5,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.TmsLink;
-import manager.HttpRespond;
+import manager.HttpResponse;
 import manager.JsExecutor;
 import manager.Waity;
 import org.testng.annotations.Test;
@@ -32,10 +32,10 @@ public class NumberOneTest extends TestBase {
 
         assertTrue(JsExecutor.isPagedCompletedJs());
 
-        HttpRespond httpRespond = new HttpRespond();
+        HttpResponse httpRespond = new HttpResponse();
         String infoFromHttpRespond = "";
         try {
-            infoFromHttpRespond = httpRespond.getHttpRespondCodeForGet();
+            infoFromHttpRespond = httpRespond.getHttpResponseCodeForGet();
         }
         catch (MalformedURLException e){
             e.getMessage();

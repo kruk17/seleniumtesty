@@ -9,7 +9,7 @@ import java.net.URL;
 
 import static org.testng.Assert.assertTrue;
 
-public class HttpRespond {
+public class HttpResponse {
 
         public void isHttpResponseCorrect() throws MalformedURLException {
             HttpURLConnection httpURLConnection;
@@ -29,7 +29,7 @@ public class HttpRespond {
             }
         }
 
-    public String getHttpRespondCodeForGet() throws MalformedURLException {
+    public String getHttpResponseCodeForGet() throws MalformedURLException {
         HttpURLConnection httpURLConnection;
         URL url = new URL(JsExecutor.returnPageUrl());
         String respondCode;

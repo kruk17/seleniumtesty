@@ -32,6 +32,7 @@ public class LoginTest extends TestBase {
                 .sendKeysPassword(passy)
                 .clickSignOn();
         LoginSite loginSite = new LoginSite();
+        System.out.println(loginSite.getExpectedText());
         assertTrue(loginSite.getExpectedText().contains("is invalid"));
 
 
