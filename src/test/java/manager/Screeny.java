@@ -18,7 +18,7 @@ public class Screeny {
     public static void takeScr(String nazwa) {
         File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(src, new File("/screenshots/" + nazwa +" "+ id + ".jpg"));
+            FileUtils.copyFile(src, new File("/screenshots/" + nazwa +"_"+ id + ".jpg"));
         } catch (IOException e) {
             e.getMessage();
         }

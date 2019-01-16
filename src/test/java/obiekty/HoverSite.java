@@ -2,8 +2,11 @@ package obiekty;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.log4testng.Logger;
 
 public class HoverSite extends ObjectBase {
+
+
 
     @FindBy (xpath = "//div[@class='example']/div[1]")
     private WebElement ludzik1;
