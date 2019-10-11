@@ -45,6 +45,7 @@ public class MainPage extends ObjectBase {
     }
 
     public DragAndDropSite enterDragAndDropSite(){
+
         logger().info("Enterted DragAndDrop site");
         dragAndDropsite.click();
         return new DragAndDropSite();

@@ -15,7 +15,7 @@ public abstract class ObjectBase {
         PageFactory.initElements(getDriver(),this);
     }
 
-    protected Logger logger(){
+    protected Logger logger() {
         return logger;
     }
 

@@ -18,7 +18,8 @@ public class Waity {
         return new WebDriverWait(getDriver(), 15);
     }
 
-    private static WebDriverWait getWait(long timeInSeconds) {
+    private static WebDriverWait getWait(long timeInSeconds)
+    {
         return new WebDriverWait(getDriver(), timeInSeconds);
     }
 

@@ -7,6 +7,10 @@ import java.util.Random;
 public class Inne {
 
 
+    public static String getPassik(){
+        String pass = "widzewek";
+        return pass;
+    };
 
 
     public static void main(String[]args){
@@ -19,6 +23,9 @@ public class Inne {
 
         Arrays.sort(tab3);
         System.out.println("arraytab3: "+tab3[0]);
+
+
+
 
 
         int[][]tab4={tab,tab3};

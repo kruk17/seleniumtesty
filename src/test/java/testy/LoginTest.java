@@ -7,6 +7,7 @@ import obiekty.MainPage;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class LoginTest extends TestBase {
@@ -17,7 +18,8 @@ public class LoginTest extends TestBase {
         return new Object[][]{
                 {"adam","malysz89"},
                 {"sven","hanavald2"},
-                {"noriaki","M45kasaI"}
+                {"noriaki","M45kasaI"},
+                {"aaa","vvvv"}
 
         };
     }
@@ -34,6 +36,7 @@ public class LoginTest extends TestBase {
         LoginSite loginSite = new LoginSite();
         System.out.println(loginSite.getExpectedText());
         assertTrue(loginSite.getExpectedText().contains("is invalid"));
+        
 
 
 

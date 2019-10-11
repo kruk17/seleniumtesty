@@ -5,6 +5,8 @@ import manager.Waity;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.Console;
+
 public class LoginSite extends ObjectBase {
 
 
@@ -24,6 +26,7 @@ public class LoginSite extends ObjectBase {
     public LoginSite sendKeysUser(String tekst){
         username.clear();
         username.sendKeys(tekst);
+
         return this;
     }
     @Step("enter password {teksty}")
