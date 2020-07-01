@@ -35,7 +35,7 @@
             <!-- logi -->
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.10.0</version>
+            <version>2.13.2</version>
         </dependency>
         <!--Trzy biblioteki niezbedne do poprawnego działania Allure framework ( 2 pierwsze dla popr. dzi. z J9i wyzej-->
         <dependency>
